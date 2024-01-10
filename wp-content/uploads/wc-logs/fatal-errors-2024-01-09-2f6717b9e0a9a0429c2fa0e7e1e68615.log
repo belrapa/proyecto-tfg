@@ -1,0 +1,24 @@
+2024-01-09T13:04:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
+2024-01-09T13:06:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-includes\pomo\entry.php en la línea 98
+
+2024-01-09T13:07:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-admin\includes\class-wp-privacy-data-export-requests-list-table.php en la línea 10
+
+2024-01-09T13:08:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
+2024-01-09T13:09:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
+2024-01-09T13:09:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\wordpress\wordpress\wp-includes\Requests\src\Transport\Curl.php en la línea 205
+
+2024-01-09T16:09:54+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(222): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1934): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#7 {main}
+  thrown en C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php en la línea 194
+
